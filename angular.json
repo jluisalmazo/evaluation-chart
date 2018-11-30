@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "charting-answers": {
+    "evaluation-chart": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/charting-answers",
+            "outputPath": "dist/evaluation-chart",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "charting-answers:build"
+            "browserTarget": "evaluation-chart:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "charting-answers:build:production"
+              "browserTarget": "evaluation-chart:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "charting-answers:build"
+            "browserTarget": "evaluation-chart:build"
           }
         },
         "test": {
@@ -107,7 +107,7 @@
         }
       }
     },
-    "charting-answers-e2e": {
+    "evaluation-chart-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "charting-answers:serve"
+            "devServerTarget": "evaluation-chart:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "charting-answers:serve:production"
+              "devServerTarget": "evaluation-chart:serve:production"
             }
           }
         },
@@ -136,5 +136,5 @@
       }
     }
   },
-  "defaultProject": "charting-answers"
+  "defaultProject": "evaluation-chart"
 }

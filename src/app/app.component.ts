@@ -40,7 +40,7 @@ export class AppComponent{
         name: 'Aciertos',
         type: 'bar',
         orientation: 'h',
-        marker: {color: 'blue'}
+        marker: {color: 'rgb(23, 181, 246)'}
       };
       
       let trace2 = {
