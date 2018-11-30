@@ -1,11 +1,11 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: {firebase_apiKey},
-    authDomain: {firebase_authDomain},
-    databaseURL: {firebase_databaseURL},
-    projectId: {firebase_projectId},
-    storageBucket: {firebase_storageBucket},
-    messagingSenderId: {firebase_messagingSenderId}
+    apiKey: "AIzaSyBZ5wxp1phPp_8ojO8ZejP71jASXkZTUIY",
+    authDomain: "cajalibertad-piloto.firebaseapp.com",
+    databaseURL: "https://cajalibertad-piloto.firebaseio.com",
+    projectId: "cajalibertad-piloto",
+    storageBucket: "cajalibertad-piloto.appspot.com",
+    messagingSenderId: "763444400478"
   }
 };
